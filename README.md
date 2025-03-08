@@ -31,6 +31,10 @@ The repository provides source code for challenges designed to showcase differen
 
 Each challenge is thoughtfully designed to reflect realistic coding oversights and vulnerabilities encountered in actual Android applications using NFC technology.
 
+## Challenge Solutions & Guide
+For a comprehensive walkthrough of each challenge—including how to exploit and remediate these vulnerabilities—refer to the detailed guide here:
+Understanding and Exploiting NFC Intents in Android Applications https://thecybersandeep.medium.com/understanding-and-exploiting-nfc-intents-in-android-applications-84c6f95d12e3
+
 ---
 
 ## ⚠️ Disclaimer:
