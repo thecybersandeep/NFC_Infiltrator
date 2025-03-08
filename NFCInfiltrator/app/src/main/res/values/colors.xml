@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Modern CRED-inspired theme colors 2025 -->
+    <color name="primary_green">#00D09C</color>
+    <color name="dark_green">#00A57C</color>
+    <color name="background_black">#0A0A0A</color>
+    <color name="card_background">#121212</color>
+    <color name="text_gray">#CCCCCC</color>
+    <color name="text_secondary">#8A8A8A</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="accent_purple">#8A2BE2</color>
+    <color name="accent_blue">#3D5AFE</color>
+
+    <!-- Challenge 1 colors -->
+    <color name="challenge1_primary">#00D09C</color>
+    <color name="challenge1_dark">#00A57C</color>
+    <color name="challenge1_background">#0F1A17</color>
+    <color name="challenge1_accent">#3D5AFE</color>
+
+    <!-- Challenge 2 colors -->
+    <color name="challenge2_primary">#FF6B6B</color>
+    <color name="challenge2_dark">#E05050</color>
+    <color name="challenge2_background">#1A1212</color>
+    <color name="challenge2_accent">#8A2BE2</color>
+</resources>

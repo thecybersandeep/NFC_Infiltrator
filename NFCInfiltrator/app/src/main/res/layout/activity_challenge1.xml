@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Challenge1Activity">
+
+    <TextView
+        android:id="@+id/challenge1HeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="SECURED FACILITY"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/securityDoorImageView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="#1A1A1A"
+        android:contentDescription="Security Door"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/challenge1HeaderTextView" />
+
+    <ImageView
+        android:id="@+id/cardReaderImageView"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="32dp"
+        android:background="#333333"
+        android:contentDescription="Card Reader"
+        app:layout_constraintBottom_toBottomOf="@+id/securityDoorImageView"
+        app:layout_constraintEnd_toEndOf="@+id/securityDoorImageView"
+        app:layout_constraintTop_toTopOf="@+id/securityDoorImageView" />
+
+    <TextView
+        android:id="@+id/accessStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#330000"
+        android:padding="16dp"
+        android:text="ACCESS DENIED"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/securityDoorImageView" />
+
+    <TextView
+        android:id="@+id/challenge1InstructionsTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Scan your NFC access card to enter the facility. Only authorized personnel with valid credentials can access this area."
+        android:textColor="#AAAAAA"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accessStatusTextView" />
+
+    <TextView
+        android:id="@+id/flagTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="#001A00"
+        android:padding="16dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nfcStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Waiting for NFC tag..."
+        android:textColor="#AAAAAA"
+        app:layout_constraintBottom_toTopOf="@+id/flagTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">NFC Infiltrator</string>
+
+    <!-- Main Activity -->
+    <string name="title_nfc_infiltrator">NFC INFILTRATOR</string>
+    <string name="subtitle_security_ctf">SECURITY CTF CHALLENGE</string>
+    <string name="nfc_status_checking">NFC Status: Checking…</string>
+    <string name="nfc_status_ready">NFC Status: Ready</string>
+    <string name="nfc_status_disabled">NFC Status: Disabled</string>
+    <string name="nfc_status_not_supported">NFC Status: Not supported on this device</string>
+
+    <!-- Challenge 1 -->
+    <string name="challenge1_title">CHALLENGE 1</string>
+    <string name="challenge1_subtitle">Secured Facility</string>
+    <string name="challenge1_description">Bypass the security door by exploiting the NFC card reader system. Can you find the vulnerability in the URI scheme?</string>
+    <string name="challenge1_button">START</string>
+    <string name="challenge1_header">SECURED FACILITY</string>
+    <string name="challenge1_access_denied">ACCESS DENIED</string>
+    <string name="challenge1_access_granted">ACCESS GRANTED</string>
+    <string name="challenge1_instructions">Scan your NFC access card to enter the facility. Only authorized personnel with valid credentials can access this area.</string>
+    <string name="challenge1_waiting_nfc">Waiting for NFC tag…</string>
+
+    <!-- Challenge 2 -->
+    <string name="challenge2_title">CHALLENGE 2</string>
+    <string name="challenge2_subtitle">Enhanced Security Protocol</string>
+    <string name="challenge2_description">Security is now tighter! The facility has implemented MIME-type verification for all access cards. Can you find a way to bypass this enhanced security?</string>
+    <string name="challenge2_button">START</string>
+    <string name="challenge2_header">ENHANCED SECURITY PROTOCOL</string>
+    <string name="challenge2_verification_failed">VERIFICATION FAILED</string>
+    <string name="challenge2_access_granted">ACCESS GRANTED</string>
+    <string name="challenge2_instructions">Security is now tighter! The facility has implemented MIME-type verification for all access cards. Your regular spoofing technique won\'t work anymore.</string>
+    <string name="challenge2_mime_requirement">Required MIME type: application/x-facility-clearance</string>
+    <string name="challenge2_waiting_nfc">Waiting for NFC tag…</string>
+    <string name="challenge2_terminal_header">SECURITY TERMINAL</string>
+    <string name="challenge2_terminal_ready">SYSTEM READY\n> WAITING FOR CLEARANCE CARD\n> MIME TYPE VERIFICATION ACTIVE\n> AUTHORIZATION REQUIRED</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_nfc_not_supported_title">NFC Not Supported</string>
+    <string name="dialog_nfc_not_supported_message">This device does not support NFC, which is required for this application.</string>
+    <string name="dialog_nfc_disabled_title">NFC Disabled</string>
+    <string name="dialog_nfc_disabled_message">NFC is disabled. Please enable NFC to use this application.</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_enable_nfc">Enable NFC</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <!-- Toasts -->
+    <string name="toast_nfc_required">NFC is required for this challenge</string>
+    <string name="toast_invalid_card">Invalid access card</string>
+    <string name="toast_invalid_authorization">Invalid authorization</string>
+</resources>
