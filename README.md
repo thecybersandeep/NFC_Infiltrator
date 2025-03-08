@@ -1,6 +1,6 @@
-# 🔐 NFC Infiltrator - Android NFC Intent Security Challenge 🔐
+# 🔐 NFC Infiltrator - Android NFC Intents Security Challenge 🔐
 
-**Welcome to NFC Infiltrator!** This is an intentionally vulnerable Android app, crafted for cybersecurity enthusiasts or anyone curious about NFC (Near Field Communication) intent vulnerabilities.
+**Welcome to NFC Infiltrator!** This is an intentionally vulnerable Android app, crafted for cybersecurity enthusiasts or anyone curious about NFC (Near Field Communication) intents vulnerabilities.
 
 The NFC Infiltrator CTF is focused on helping you understand, discover, and exploit common NFC security vulnerabilities in Android apps through practical, hands-on experience.
 
